@@ -1,6 +1,6 @@
 name: Claude SDK Single Turn
 description: Single-turn Claude SDK hello world for SAR-001 v2 smoke testing.
-entrypoint: tsx index.ts
+entrypoint: node index.js
 runtime:
   framework: claude-sdk
   timeout_seconds: 60
