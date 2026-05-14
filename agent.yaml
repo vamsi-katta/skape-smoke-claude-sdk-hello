@@ -1,9 +1,8 @@
 name: Claude SDK Single Turn
-version: 1.0.0
+description: Single-turn Claude SDK hello world for SAR-001 v2 smoke testing.
+entrypoint: tsx index.ts
 runtime:
   framework: claude-sdk
   timeout_seconds: 60
 skills:
   - name: answer_question
-    description: Answers a user question
-    requires_hitl: false
